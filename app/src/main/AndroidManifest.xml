@@ -14,10 +14,16 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BulletinsListActivity" />
+        <activity android:name=".BulletinsMenuActivity" />
+        <activity
+            android:name=".EditorialActivity"
+            android:label="@string/title_activity_editorial"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AgendaSemanaActivity"></activity>
     </application>
 
 </manifest>
