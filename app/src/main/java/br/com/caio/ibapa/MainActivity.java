@@ -88,8 +88,6 @@ public class MainActivity extends AppCompatActivity
 //                intentBulletinsList.setClass(this, BulletinsListActivity.class);
 //                startActivity(intentBulletinsList);
                 startActivity(new Intent(this, BulletinsListActivity.class));
-                //Your content must have a ListView whose id attribute is 'android.R.id.list'
-
                 Toast.makeText(this, "Opção escolhida: nav_bulletin", Toast.LENGTH_LONG).show();
                 break;
 
@@ -115,6 +113,11 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_send:
                 Toast.makeText(this, "Opção escolhida: nav_send", Toast.LENGTH_LONG).show();
+                break;
+
+            case R.id.nav_about:
+                Toast.makeText(this, "Opção escolhida: nav_about", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(this, SobreActivity.class));
                 break;
         }
 

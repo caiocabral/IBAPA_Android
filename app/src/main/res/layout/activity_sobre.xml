@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Organizada em 8 de junho de 1969.\nAv. Urânio, Lt. 03 – Qd. 30 - Parque Alian\nSão João de Meriti - RJ\nCEP. 25.550-340 - Tel. (21) 2751-6210" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="e-mail: ib.apa@hotmail.com\nPr. Mauro Stélio Massacesi Sanches"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:src="@mipmap/logo_cbb"
+                android:paddingTop="15dp" />
+
+        </TableLayout>
+    </HorizontalScrollView>
+</ScrollView>

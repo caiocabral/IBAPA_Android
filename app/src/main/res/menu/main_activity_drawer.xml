@@ -22,6 +22,14 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
+        <item
+            android:id="@+id/nav_oferta"
+            android:icon="@android:drawable/star_off"
+            android:title="Dízimos e ofertas" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Sobre" />
     </group>
 
     <item android:title="Communicate">

@@ -20,11 +20,7 @@ public class BulletinsMenuActivity extends ListActivity {
 
         Toast.makeText(this, "Selecionado: " + val, Toast.LENGTH_LONG).show();
 
-        String[] bulletins = new String[]{
-                "Editorial",
-                "Agenda da semana",
-                "Escala de servico",
-        };
+        String[] bulletins = new String[]{"Editorial", "Agenda da semana", "Escala de servico"};
 
         ArrayAdapter<String> adapterBulletins = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, bulletins);
         setListAdapter(adapterBulletins);
@@ -42,6 +38,9 @@ public class BulletinsMenuActivity extends ListActivity {
                 break;
             case 1:
                 startActivity(new Intent(this, AgendaSemanaActivity.class));
+                break;
+            case 2:
+                startActivity(new Intent(this, EscalaServicoActivity.class));
                 break;
         }
     }
