@@ -115,6 +115,11 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(this, "Opção escolhida: nav_send", Toast.LENGTH_LONG).show();
                 break;
 
+            case R.id.nav_oferta:
+                Toast.makeText(this, "Opção escolhida: nav_about", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(this, OfertaActivity.class));
+                break;
+
             case R.id.nav_about:
                 Toast.makeText(this, "Opção escolhida: nav_about", Toast.LENGTH_LONG).show();
                 startActivity(new Intent(this, SobreActivity.class));

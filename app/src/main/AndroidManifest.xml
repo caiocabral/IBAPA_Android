@@ -21,6 +21,7 @@
         <activity android:name=".BulletinsMenuActivity" />
         <activity android:name=".EscalaServicoActivity" />
         <activity android:name=".SobreActivity" />
+        <activity android:name=".OfertaActivity" />
         <activity
             android:name=".EditorialActivity"
             android:label="@string/title_activity_editorial"
