@@ -26,12 +26,7 @@ public class AgendaSemanaActivity extends ListActivity {
         agendaSemana.add(new String[]{"18/12 (Sexta-feira)", "Culto dos Aniversariantes do Semestre da MCA, às 19h, aqui na IBAPA."});
         agendaSemana.add(new String[]{"20/12 (Domingo)", "Reunião de Oração, 7h.\nMusical de Natal Infantil, às 9h.\nCULTO DE GRATIDÃO PELOS 21 ANOS DE POSSE PR. MAURO SANCHES, 19h."});
 
-        setListAdapter(new ArrayAdapter<String[]>(
-                this,
-                android.R.layout.simple_list_item_2,
-                android.R.id.text1,
-                agendaSemana) {
-
+        setListAdapter(new ArrayAdapter<String[]>(this, android.R.layout.simple_list_item_2, android.R.id.text1, agendaSemana) {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 View view = super.getView(position, convertView, parent);

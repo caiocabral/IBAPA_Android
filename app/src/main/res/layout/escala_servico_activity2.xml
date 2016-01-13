@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingBottom="50px">
+                    <!--<TableLayout/>-->
+                    <TableLayout>
+
+                        <TableRow>
+
+                            <TextView android:text="MANHÃ / NOITE" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLegenda"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:gravity="center"
+                    android:paddingTop="50px">
+
+                    <TextView android:text="Legenda" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TableLayout android:paddingRight="15dp">
+
+                        <TableRow>
+
+                            <TextView android:text="M - Manhã" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView android:text="N - Noite" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout>
+
+                        <TableRow>
+
+                            <TextView android:text="H - Hoje" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView android:text="P - Próximo" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+            </TableLayout>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+</ScrollView>

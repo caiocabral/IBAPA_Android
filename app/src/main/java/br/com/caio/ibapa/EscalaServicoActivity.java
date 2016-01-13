@@ -15,7 +15,7 @@ public class EscalaServicoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.escala_servico_activity);
+        setContentView(R.layout.escala_servico_activity2);
 
         table = (TableLayout) findViewById(R.id.table);
 
